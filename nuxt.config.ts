@@ -5,7 +5,6 @@ export default defineNuxtConfig({
       script: [
         {
           innerHTML: `
-          <m3sale-widget api-key="1258562c-bc46-4a21-9deb-5e852fc3eba0"></m3sale-widget>
           <script async src="https://widget.develop.m3.sale/widget-init.js"></script>         
           `,
           type: 'text/javascript',
