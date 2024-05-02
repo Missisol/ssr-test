@@ -4,11 +4,9 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          innerHTML: `
-          <script async src="https://widget.develop.m3.sale/widget-init.js"></script>         
-          `,
+          src:"https://widget.develop.m3.sale/widget-init.js",        
           type: 'text/javascript',
-          tagPosition: 'head',
+          async: true,
         },
       ],
     }
