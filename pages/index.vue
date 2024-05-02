@@ -2,13 +2,13 @@
   <ClientOnly>
     <div class="child">
       <h2>Home Page</h2>
-      <ButtonComponent
+      <!-- <ButtonComponent
         :init="init"
         :clear="clear"
       />
       <ul>
         <li v-for="product in productStore.products">{{ product.title }}</li>
-      </ul>
+      </ul> -->
     </div>
   </ClientOnly>
 </template>
